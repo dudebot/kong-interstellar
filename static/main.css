@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { /*This is the main values for the body tag*/
+	font: 100%/1.4 Helvetica,Verdana,Arial, sans-serif;
+	background:#000; /*Use this to change the background color or add an image*/
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+
+ul, ol, dl {  /*Unordered and Ordered list values*/
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p { /*h1 up to h6 + p values*/
+	margin-top: 0;	 
+	padding-right: 15px;
+	padding-left: 15px;
+}
+a img {
+	border: none; /*Change this if you want to add a border to your image links*/
+}
+
+
+a:link {
+	color:#000; /*Changes the color for links*/
+	text-decoration: underline; 
+}
+a:visited {
+	color:#000;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+
+
+.container { /*This is the container that has all of yourdiv tiems such as the menu + the content area*/
+	width: 840px;
+	background: #FFF;
+	margin: 0 auto; 
+	overflow: hidden; 
+}
+
+
+.sidebar1 { /*This is pretty much your menu, you can add any amount of items to the menu*/
+	float: left;
+	width: 180px;
+	background:#FFF; /*Background color for the menu*/ 
+	padding-bottom: 10px;
+}
+.content { /*This is middle area where you get to write your content, this is contained within the .container tag*/
+
+	padding: 10px 0;
+	width: 634px;
+	float: left;
+}
+
+.content ul, .content ol { /*This is for setting up UnOrdered and Ordered lists within the content tag*/
+	padding: 0 15px 15px 40px; /
+}
+
+ul.nav {
+	list-style: none; 
+	border-top: 0px solid #666; 
+	border-right: 1px solid #666; 
+	margin-bottom: 15px;
+}
+ul.nav li {
+	border-bottom: 1px solid #666; 
+}
+ul.nav a, ul.nav a:visited { 
+	padding: 5px 5px 5px 15px;
+	display: block; 
+	width: 160px;  
+	text-decoration: none;
+	background:#FFF; /*The color of the menu Items*/
+}
+/*ul.nav a:active, ul.nav a:focus*/
+
+ul.nav a:hover{ 
+	background:#CCC	;  /*The color of the menu Items Hover*/
+	color: #333;
+}
+
+

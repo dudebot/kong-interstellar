@@ -1,0 +1,4 @@
+cron:
+- description: update catalog data
+  url: /tasks/updatethread
+  schedule: every 25 minutes
