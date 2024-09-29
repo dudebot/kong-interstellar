@@ -1,0 +1,1 @@
+This is a backup of the kong thread finder. The original code was written in late 2013 and pretty much has not been modified since. Please do not mind the horrors of the NDB implementation. I was young and naive.
